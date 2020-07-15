@@ -9,12 +9,12 @@ import scrapy
 class Wuba1Item(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    job_name = scrapy.Field()
-    money = scrapy.Field()
-    job_wel = scrapy.Field()
-    company = scrapy.Field()
-    position_type = scrapy.Field()
-    xueli = scrapy.Field()
-    jingyan = scrapy.Field()
-    address = scrapy.Field()
+    Rec_Title = scrapy.Field()
+    Rec_Salary = scrapy.Field()
+    Tags = scrapy.Field()
+    Company = scrapy.Field()
+    Rec_Cate = scrapy.Field()
+    Rec_Education = scrapy.Field()
+    Rec_Experience = scrapy.Field()
+    Rec_Location = scrapy.Field()
     
